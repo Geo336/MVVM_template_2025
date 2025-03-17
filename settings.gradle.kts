@@ -1,4 +1,8 @@
 pluginManagement {
+    plugins {
+        // Using the alias to refer to the plugin defined in libs.versions.toml
+        //id("com.google.dagger.hilt.android") version libs.versions.hilt.get()
+    }
     repositories {
         google {
             content {
